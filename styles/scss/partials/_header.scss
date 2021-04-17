@@ -1,0 +1,48 @@
+.header {
+  height: 353px;
+  background-color: $primary-color;
+  color: $title-color;
+}
+
+.header p {
+  color: $text-color;
+  line-height: 1.9rem;
+}
+
+
+.header--navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header--navigation__logo {
+  font-size: large;
+  margin: 2rem 4rem 0;
+}
+
+.header--navigation span {
+  font-size: medium;
+  margin: 2rem 4rem 0;
+}
+
+.select span {
+  transform: rotate(90deg);
+}
+
+.select {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  font-size: 1.6rem;
+  border-bottom: 0.01rem solid $border-color;
+}
+
+.header--title {
+  font-size: 2.4rem;
+  font-weight: bold;
+  width: 13.5rem;
+  margin: 4rem 0 3.5rem 3.2rem;
+}
